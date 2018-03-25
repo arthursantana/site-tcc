@@ -9,8 +9,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Tesselação Centroidal de Voronoi na Esfera</title>
-    <meta name="generator" content="Hugo 0.37" />
+    <title>Introdução às Tesselações</title>
+    <meta name="generator" content="Hugo 0.37.1" />
 
     
     <link rel="canonical" href="https://linux.ime.usp.br/~arthur/mac0499/">
@@ -93,7 +93,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Tesselação Centroidal de Voronoi na Esfera
+        Introdução às Tesselações
       </div>
     </div>
 
@@ -197,16 +197,14 @@
 	<article class="article">
 		<div class="wrapper">
 			
-				<h1>Tesselação Centroidal de Voronoi na Esfera </h1>
+				<h1>Introdução às Tesselações </h1>
 
 				<p><strong>Arthur Gabriel de Santana</strong><br />
 <strong>Orientador: <a href="https://www.ime.usp.br/~egbirgin/">Ernesto G. Birgin</a></strong></p>
 
-<p>Uma <a href="https://en.wikipedia.org/wiki/Centroidal_Voronoi_tessellation">tesselação centroidal de Voronoi</a> (TCV) é uma forma particular de <a href="https://en.wikipedia.org/wiki/Voronoi_diagram">diagrama de Voronoi</a> que otimiza o particionamento de um conjunto em relação a uma certa função de erro. São conhecidas aplicações de TCVs em compressão de imagens, quadraturas, métodos de diferença finitas, alocação de recursos, biologia celular, estatística e comportamento territorial de animais<sup class="footnote-ref" id="fnref:du"><a href="#fn:du">1</a></sup>.</p>
+<p>Uma <a href="https://en.wikipedia.org/wiki/Tessellation">tesselação</a> de um conjunto aberto A é um conjunto de subconjuntos disjuntos que cobre A. Uma <a href="https://en.wikipedia.org/wiki/Centroidal_Voronoi_tessellation">tesselação centroidal de Voronoi</a> (TCV) é uma forma particular de <a href="https://en.wikipedia.org/wiki/Voronoi_diagram">diagrama de Voronoi</a> em que os pontos geradores coincidem com os centros de massa. São conhecidas aplicações de TCVs em compressão de imagens, quadraturas, métodos de diferença finitas, alocação de recursos, biologia celular, estatística e comportamento territorial de animais<sup class="footnote-ref" id="fnref:du"><a href="#fn:du">1</a></sup>.</p>
 
-<p>Um dos algoritmos mais utilizados para o cálculo de TCVs é o <a href="https://en.wikipedia.org/wiki/Lloyd%27s_algorithm">algoritmo de Lloyd</a>, um algoritmo iterativo de ponto fixo  criado na Bell Labs, em 1957, para a quantização ótima de sinais analógicos<sup class="footnote-ref" id="fnref:lloyd"><a href="#fn:lloyd">2</a></sup>. Apesar de o problema original estar definido em uma única dimensão, o algoritmo é trivialmente extendido para aplicações em várias dimensões.</p>
-
-<p>Neste trabalho, pretendemos utilizar o algoritmo de Lloyd para a construção de malhas esféricas, de forma a otimizar critérios de qualidade baseados na utilização das malhas para a resolução numérica de equações diferenciais em modelos geofísicos<sup class="footnote-ref" id="fnref:peixoto"><a href="#fn:peixoto">3</a></sup>.</p>
+<p>Um dos algoritmos mais utilizados para o cálculo de TCVs é o <a href="https://en.wikipedia.org/wiki/Lloyd%27s_algorithm">algoritmo de Lloyd</a>, um algoritmo iterativo de ponto fixo  criado na Bell Labs, em 1957, para a quantização ótima de sinais analógicos<sup class="footnote-ref" id="fnref:lloyd"><a href="#fn:lloyd">2</a></sup>. Neste trabalho, pretendemos estudar e implementar o algoritmo de Lloyd no R<sup>2</sup>, além de estudar alguns resultados básicos da área: propriedades de otimização dos conjuntos de Voronoi, relação com as triangulações de Delaunay, aplicação do algoritmo a outros espaços métricos, entre outros.</p>
 <div class="footnotes">
 
 <hr />
@@ -216,8 +214,6 @@
  <a class="footnote-return" href="#fnref:du"><sup>[return]</sup></a></li>
 <li id="fn:lloyd">Lloyd, Stuart P. (1982), &ldquo;Least squares quantization in PCM&rdquo;, IEEE Transactions on Information Theory, 28 (2): 129–137, doi:10.1109/TIT.1982.1056489.
  <a class="footnote-return" href="#fnref:lloyd"><sup>[return]</sup></a></li>
-<li id="fn:peixoto"><a href="https://www.ime.usp.br/~pedrosp/fluidos-na-esfera/">https://www.ime.usp.br/~pedrosp/fluidos-na-esfera/</a>
- <a class="footnote-return" href="#fnref:peixoto"><sup>[return]</sup></a></li>
 </ol>
 </div>
 
