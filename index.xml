@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Introdução às Tesselações on MAC0499 - Trabalho de Formatura Supervisionado</title>
+    <title>Algoritmos de Otimização para Construção de Tesselações Centroidais de Voronoi on MAC0499 - Trabalho de Formatura Supervisionado</title>
     <link>https://linux.ime.usp.br/~arthur/mac0499/</link>
-    <description>Recent content in Introdução às Tesselações on MAC0499 - Trabalho de Formatura Supervisionado</description>
+    <description>Recent content in Algoritmos de Otimização para Construção de Tesselações Centroidais de Voronoi on MAC0499 - Trabalho de Formatura Supervisionado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Fri, 09 Mar 2018 21:07:13 +0100</lastBuildDate>
@@ -12,14 +12,23 @@
     
     
     <item>
-      <title>Relatórios Parciais</title>
-      <link>https://linux.ime.usp.br/~arthur/mac0499/relatorios/</link>
+      <title>Código fonte</title>
+      <link>https://linux.ime.usp.br/~arthur/mac0499/code/</link>
       <pubDate>Tue, 13 Mar 2018 23:45:09 -0300</pubDate>
       
-      <guid>https://linux.ime.usp.br/~arthur/mac0499/relatorios/</guid>
-      <description>Resumo do paper do Lloyd (rascunho) Seu navegador não tem suporte a PDFs. Por favor faça o download aqui.
- 
-download</description>
+      <guid>https://linux.ime.usp.br/~arthur/mac0499/code/</guid>
+      <description>Código fonte (arquivo tar.gz)
+Repositório Git</description>
+    </item>
+    
+    <item>
+      <title>Monografia</title>
+      <link>https://linux.ime.usp.br/~arthur/mac0499/monografia/</link>
+      <pubDate>Tue, 13 Mar 2018 23:45:09 -0300</pubDate>
+      
+      <guid>https://linux.ime.usp.br/~arthur/mac0499/monografia/</guid>
+      <description>Download
+Seu navegador não tem suporte a PDFs. Por favor faça o download aqui.</description>
     </item>
     
     <item>
@@ -31,6 +40,16 @@ download</description>
       <description>Seu navegador não tem suporte a PDFs. Por favor faça o download aqui.
  
 download</description>
+    </item>
+    
+    <item>
+      <title>Apreciação Pessoal e Crítica</title>
+      <link>https://linux.ime.usp.br/~arthur/mac0499/critica/</link>
+      <pubDate>Fri, 09 Mar 2018 21:07:13 +0100</pubDate>
+      
+      <guid>https://linux.ime.usp.br/~arthur/mac0499/critica/</guid>
+      <description>Este foi um trabalho difícil e divertido. Uma coisa que me surpreendeu foi a quantidade proporcional de esforço que foi necessária para a compreensão do problema e definição do escopo do trabalho.
+Ler os artigos de áreas que eu conhecia muito pouco, como Geometria Computacional, exigiu muita pesquisa. Além disso, a informação estava bastante dispersa; em alguns casos, até mesmo inexistente. Precisei preencher eu mesmo, com a ajuda de meu orientador e outros professores, vários buracos na descrição dos algoritmos e da teoria.</description>
     </item>
     
   </channel>
